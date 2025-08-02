@@ -4,7 +4,7 @@ const DownloadButtons = () => {
     {
       id: 1,
       title: "Libro de lecciones nivel 3. Los Dos Espíritus",
-      url: "https://drive.google.com/file/d/1nr7qLC0xIBdz_2mxVGyPMLInlSrk652p/view?usp=drive_link"
+      url: "https://drive.google.com/uc?export=download&id=1nr7qLC0xIBdz_2mxVGyPMLInlSrk652p"
     },
     {
       id: 2,

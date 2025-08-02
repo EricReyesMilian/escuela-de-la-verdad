@@ -23,7 +23,13 @@ body {
   padding: 2rem 0;
   width: 100%;
   background-color: #f0f0f0;
-  margin-bottom: 2rem;
+  margin-bottom: 56px;
+  box-sizing: border-box;
+
+  border-bottom: 3px solid #0a255e;
+  outline: 3px solid  #0a255e; 
+  outline-offset: 5px;
+
 }
 
 .logo {

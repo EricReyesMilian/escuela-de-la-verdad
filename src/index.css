@@ -55,3 +55,16 @@ body {
   font-family: 'Roboto', sans-serif;
 
 }
+
+
+.footer {
+  background-color: #0a255e;
+  color: #ecf0f1;
+  padding: 2rem 0;
+  color: white;
+
+  width: 100%;
+  margin-top: 50px;
+  height: 150px;/* Para que se quede abajo si usas flex en el layout */
+}
+

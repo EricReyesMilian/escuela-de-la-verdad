@@ -1,4 +1,5 @@
 import Header from './components/Header'
+import Footer from './components/Footer'
 import DownloadButtons from './components/DownloadButtons'
 import './index.css'
 import '@fontsource/roboto/400.css';
@@ -9,6 +10,7 @@ function App() {
     <div className="app">
       <Header />
       <DownloadButtons />
+      <Footer />
     </div>
   )
 }

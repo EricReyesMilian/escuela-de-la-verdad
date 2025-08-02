@@ -1,6 +1,6 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  line-height: 1.4;
   font-weight: 400;
 }
 
@@ -52,6 +52,13 @@ body {
   justify-content:space-between
   
 }
+.button-group a{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  margin: auto;
+  
+}
 .view-btn {
   padding: 1rem 1.5rem;
   background-color: #0a255e;
@@ -62,6 +69,7 @@ body {
   font-size: 1rem;
   font-weight: 700;
   transition: background-color 0.25s;
+  height: 35px;
 }
 .download-btn {
   padding: 1rem 1.5rem;
@@ -73,6 +81,8 @@ body {
   font-weight: 700;
   transition: background-color 0.25s;
   outline: 4px solid  #0a255e; 
+    padding: 1.3rem 1.5rem;
+
 
 }
 .download-btn:hover {

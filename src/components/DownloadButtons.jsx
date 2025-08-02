@@ -3,18 +3,18 @@ const DownloadButtons = () => {
   const downloads = [
     {
       id: 1,
-      title: "Documento 1",
+      title: "Libro de lecciones nivel 3. Los Dos Espíritus",
       url: "https://drive.google.com/file/d/1nr7qLC0xIBdz_2mxVGyPMLInlSrk652p/view?usp=drive_link"
     },
     {
       id: 2,
-      title: "Documento 2",
-      url: "https://drive.google.com/uc?export=download&id=ID_ARCHIVO_2"
+      title: "Suplemento de Himnos I. L en Cuba",
+      url: "https://drive.google.com/file/d/15NvSpcOgS8XtQqwwxQHVdhH4-R8m_vHk/view?usp=drive_link"
     },
     {
       id: 3,
-      title: "Documento 3",
-      url: "https://drive.google.com/uc?export=download&id=ID_ARCHIVO_3"
+      title: "Versículos a memorizar",
+      url: "https://drive.google.com/file/d/1zOJ9-LEnhguMuX5hIM0i884w76rS6ILp/view?usp=drive_link"
     }
   ]
 

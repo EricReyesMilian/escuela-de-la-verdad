@@ -4,7 +4,7 @@ const DownloadButtons = () => {
     {
       id: 1,
       title: "Documento 1",
-      url: "https://drive.google.com/uc?export=download&id=ID_ARCHIVO_1"
+      url: "https://drive.google.com/file/d/1nr7qLC0xIBdz_2mxVGyPMLInlSrk652p/view?usp=drive_link"
     },
     {
       id: 2,

@@ -60,6 +60,9 @@ body {
   
 }
 .view-btn {
+  display: flex;                /* Usamos flexbox para centrado fácil */
+  align-items: center;         /* Centrado vertical */
+  justify-content: center;     /* Centrado horizontal */
   padding: 1rem 1.5rem;
   background-color: #0a255e;
   color: white;
@@ -70,6 +73,8 @@ body {
   font-weight: 700;
   transition: background-color 0.25s;
   height: 35px;
+  text-align: center;          /* Redundancia para navegadores antiguos */
+  line-height: 1;    
 }
 .download-btn {
   padding: 1rem 1.5rem;
@@ -116,4 +121,6 @@ body {
   position: relative;
   bottom: 0;
 }
+
+
 

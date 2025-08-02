@@ -59,12 +59,15 @@ body {
 
 .footer {
   background-color: #0a255e;
-  color: #ecf0f1;
-  padding: 2rem 0;
   color: white;
-
+  padding: 2rem 0;
   width: 100%;
-  margin-top: 50px;
-  height: 150px;/* Para que se quede abajo si usas flex en el layout */
+  margin-top: 50px; /* Margen superior solicitado */
+  
+
+  
+  /* Para que se mantenga abajo cuando hay poco contenido */
+  position: relative;
+  bottom: 0;
 }
 

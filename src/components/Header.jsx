@@ -1,13 +1,16 @@
+import React from 'react';
+import logo from '../assets/Logo.svg'; // Ajusta la ruta
+
 const Header = () => {
   return (
     <header className="header">
       <img 
-        src="/logo.png"  // Coloca tu logo en la carpeta public
+        src={logo}
         alt="Logo" 
         className="logo"
       />
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

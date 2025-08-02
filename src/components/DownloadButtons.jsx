@@ -27,7 +27,7 @@ const DownloadButtons = () => {
           className="download-btn"
           download
         >
-          Descargar {item.title}
+          {item.title}
         </a>
       ))}
     </div>
